@@ -75,10 +75,13 @@ nav {
     font-size: xx-large;
 }
 
+.grid{
+    display: grid;
+}
 
-
-@media(min- width:1024px){
+@media(min-width:1024px){
     .grid{
     display:grid;
-    grid-template-columns: 33%,33%,33%;
+    grid-template-columns: 33% 33% 33%;
+}
 }
